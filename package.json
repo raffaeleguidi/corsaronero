@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/raffaeleguidi/corsaronero/issues"
   },
-  "homepage": "https://github.com/raffaeleguidi/corsaronero",
+  "homepage": "https://twitter.com/raffaeleguidi",
   "dependencies": {
     "request": "*",
     "cheerio": "*",
