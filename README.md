@@ -1,5 +1,5 @@
 # corsaronero
-A simple library to find italian torrents with nodejs
+A simple library to find italian torrents using nodejs
 
 
 ```javascript

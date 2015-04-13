@@ -1,7 +1,7 @@
 {
   "name": "corsaronero",
   "version": "0.9.0",
-  "description": "A simple library to find italian torrents with nodejs",
+  "description": "A simple library to find italian torrents using nodejs",
   "main": "./lib/corsaronero.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
