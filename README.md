@@ -9,9 +9,9 @@ var _ = require("underscore");
 var log = require('winston');
 var corsaronero = require("corsaronero");
 
-corsaronero.search('interstellar', function(results){
+corsaronero.search('ubuntu', function(results){
     _.each(
-        _.sortBy(_.where(results, {type: 'DVDrip'}), 'seeds'), function(item){
+        _.sortBy(_.where(results, {type: 'App Linux'}), 'seeds'), function(item){
             log.info(
                 "[%s] %s - size: %s date: %s seeds: %d leeches: %d info: %s", 
                 item.type, 
