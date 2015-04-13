@@ -1,6 +1,6 @@
 {
   "name": "corsaronero",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "A simple library to find italian torrents using nodejs",
   "main": "./lib/corsaronero.js",
   "scripts": {
