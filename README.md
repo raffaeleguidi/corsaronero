@@ -12,7 +12,7 @@ var corsaronero = require("corsaronero");
 corsaronero.search('ubuntu', function(results){
     _.chain(results)
         .where(results, {type: 'App Linux'})
-        .sortBy({type: 'App Linux'})
+        .sortBy('seed')
         .each(function(item){
             log.info(
                 "[%s] %s - size: %s date: %s seeds: %d leeches: %d info: %s", 
