@@ -10,8 +10,10 @@ var log = require('winston');
 var corsaronero = require("corsaronero");
 
 corsaronero.search('ubuntu', function(results){
-    _.each(
-        _.sortBy(_.where(results, {type: 'App Linux'}), 'seeds'), function(item){
+    _.chain(results)
+        .where(results, {type: 'App Linux'})
+        .sortBy('seed')
+        .each(function(item){
             log.info(
                 "[%s] %s - size: %s date: %s seeds: %d leeches: %d info: %s", 
                 item.type, 
