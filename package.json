@@ -24,7 +24,6 @@
   "homepage": "https://twitter.com/raffaeleguidi",
   "dependencies": {
     "request": "*",
-    "cheerio": "*",
-    "winston": "*"
+    "cheerio": "*"
   }
 }
